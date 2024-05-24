@@ -25,7 +25,6 @@ graph LR
 
     F --> F1[Quản lý người dùng]
     F --> F2[Quản lý quyền truy cập]
-
 ```
 ```mermaid
 graph LR
@@ -46,6 +45,12 @@ graph LR
     D --> D1[Tạo nhánh]
     D --> D2[Xóa nhánh]
     D --> D3[Chuyển nhánh]
+
+    E --> E1[Hợp nhất nhánh]
+    E --> E2[Giải quyết xung đột]
+
+    F --> F1[Quản lý người dùng]
+    F --> F2[Quản lý quyền truy cập]
 ```
 ### Giải thích
 Nút gốc A đại diện cho hệ thống quản lý phiên bản phân tán.
