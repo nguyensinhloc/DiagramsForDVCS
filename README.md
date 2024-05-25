@@ -320,7 +320,7 @@ Phiên bản commit (COMMIT) chứa nhiều tệp tin (FILE).
 Quyền truy cập (ACCESS_CONTROL) áp dụng cho nhiều kho lưu trữ (REPOSITORY).
 ## Lưu đồ giải thuật
 ```
-flowchart TD
+flowchart LR
     %% Terminal
     start([Bắt đầu]) --> user_input[[Nhận yêu cầu từ người dùng]]
 
@@ -380,7 +380,7 @@ flowchart TD
     style access_denied fill:#ffcccc,stroke:#d9534f,stroke-width:2px;
 ```
 ```mermaid
-flowchart TD
+flowchart LR
     %% Terminal
     start([Bắt đầu]) --> user_input[[Nhận yêu cầu từ người dùng]]
 
